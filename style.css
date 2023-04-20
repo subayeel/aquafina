@@ -68,6 +68,10 @@ nav img {
 }
 
 /* Rolling Text on card */
+.large-card{
+  background-repeat: no-repeat;
+  background-image: url("./Assets/Images/bottle-can.png");
+}
 .large-card:hover > .rolling-text-container {
   display: none;
 }
