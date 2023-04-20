@@ -17,8 +17,9 @@
         <img src="./Assets/Images/logo.png" alt="">
     </nav>
     <main>
-        <div class="row p-0 col-md-6 col-sm-12 col-sm-12 w-100 m-0">
-            <div class="large-card col card m-1" style="background-color: #2900E8;color: white;position: relative;">
+        <div class="row p-0  w-100 m-0">
+            <div class="large-card col-md-6 col-sm-12 card m-1"
+                style="background-color: #2900E8;color: white;position: relative;">
                 <div class="rolling-text-container">
                     <span class="rolling-text">Sip it, love it, live it.</span>
                     <span class="rolling-text">Sip it, love it, live it.</span>
@@ -37,8 +38,8 @@
                 </div>
             </div>
             <div class="col p-0 ">
-                <div class="row col-sm-12 m-0">
-                    <div class="small-card d-flex justify-content-center col card m-1"
+                <div class="row  m-0">
+                    <div class="small-card  d-flex justify-content-center col col-md-6  col-sm-12 card m-1"
                         style="background-color: #fff; position: relative;">
                         <div class="hidden-rolling-text-container">
                             <span class="rolling-text">Sip it, love it, live it.</span>
@@ -54,7 +55,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card m-1 small-card d-flex justify-content-center"
+                    <div class="col  card m-1 small-card d-flex justify-content-center"
                         style="background-color: #1B1B1F;color: #fff; position: relative;">
                         <div class="hidden-rolling-text-container">
                             <span class="rolling-text">Sip it, love it, live it.</span>
@@ -268,7 +269,7 @@
 
 
             <i style="position: absolute;bottom: 95px;right: 88px;"
-                class="  d-flex justify-content-end align-items-center fa-solid fa-angle-down fa-lg p-0 m-0"></i>
+                class=" services-circle-arrow d-flex justify-content-end align-items-center fa-solid fa-angle-down fa-lg p-0 m-0"></i>
 
 
         </div>
@@ -322,33 +323,39 @@
             </div>
         </div>
         <div class="static card m-1" style="background-color: #1D1C16;color: #A5A1FF;">
-            <div style="margin-right: 20vw;">
+            <div class="contact-us-container" style="margin-right: 20vw;">
                 <p class="title">Get in touch</p>
                 <h1 class="large-text">Do you have a question, an idea, or a project you need help with?
                     Contact us!</h1>
+                <div style="max-width: max-content;">
+                    <div class="email-container">
 
-                <div class="d-flex mt-5 ">
+                        <button class="custom-btn">info@aquafina.com</button>
 
-                    <button class="custom-btn">info@aquafina.com</button>
+                        <button class="custom-btn">+91 97407 30152</button>
 
-                    <button class="custom-btn">+91 97407 30152</button>
+                    </div>
+                    <div class="d-flex mt-3">
 
+                        <button class="custom-btn" style="flex: 33%;"><i
+                                class=" fa-brands fa-instagram fa-lg"></i></button>
+
+                        <button class="custom-btn" style="flex: 33%;"><i
+                                class="fa-brands fa-facebook fa-lg"></i></button>
+
+                        <button class="custom-btn" style="flex: 33%;"><i
+                                class="fa-brands fa-linkedin fa-lg"></i></button>
+
+                    </div>
                 </div>
-                <div class="d-flex mt-3">
 
-                    <button class="custom-btn"><i class=" fa-brands fa-instagram fa-lg"></i></button>
 
-                    <button class="custom-btn"><i class="fa-brands fa-facebook fa-lg"></i></button>
-
-                    <button class="custom-btn"><i class="fa-brands fa-linkedin fa-lg"></i></button>
-
-                </div>
 
 
 
             </div>
 
-            <svg id="services-circle" width="155" height="156" viewBox="0 0 155 156" fill="none"
+            <svg id="services-circle" width="125" height="126" viewBox="0 0 155 156" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-outside-1_53_2244" maskUnits="userSpaceOnUse" x="0" y="0" width="155" height="156"
                     fill="black">
@@ -509,8 +516,23 @@
                     d="M10.3521 87.1809L11.5169 87.8253L10.909 88.8823L9.77214 88.2993C9.47019 88.1365 9.22976 87.9836 9.05088 87.8408C8.86999 87.7103 8.69211 87.5613 8.51723 87.3939C8.5304 87.6234 8.53641 87.8581 8.53527 88.098C8.52182 88.3358 8.48905 88.6148 8.43697 88.9347L8.22361 90.2455L7.02366 90.0501L7.23701 88.7394C7.2891 88.4194 7.35364 88.1394 7.43062 87.8992C7.4933 87.6694 7.56628 87.4539 7.64957 87.2527C7.44493 87.3457 7.22898 87.4306 7.00173 87.5073C6.77448 87.584 6.49799 87.6527 6.17228 87.7134L4.90622 87.9242L4.64947 86.7075L5.97693 86.4688C6.27602 86.4164 6.55264 86.3856 6.8068 86.3764C7.05895 86.3796 7.29265 86.3797 7.50788 86.3769C7.33701 86.1848 7.19075 85.9968 7.06911 85.8127C6.93516 85.6267 6.80922 85.3914 6.6913 85.1069L6.13316 83.8791L7.24123 83.3583L7.80838 84.5308C7.96122 84.8336 8.076 85.0986 8.15271 85.3259C8.22741 85.5654 8.28566 85.7897 8.32745 85.9986C8.42705 85.7748 8.55641 85.5621 8.71554 85.3606C8.86237 85.1571 9.03381 84.9576 9.22986 84.7622L10.195 83.8391L11.0622 84.6814L10.1435 85.6689C9.91679 85.8973 9.71043 86.0785 9.5244 86.2124C9.33836 86.3464 9.14002 86.4783 8.92936 86.6082C9.18181 86.6872 9.42194 86.7642 9.64977 86.8392C9.86328 86.9245 10.0974 87.0384 10.3521 87.1809Z"
                     stroke="#A5A1FF" stroke-width="0.425086" mask="url(#path-1-outside-1_53_2244)"></path>
             </svg>
-            <i style="position: absolute;bottom: 109px;right: 100px;"
-                class="  d-flex justify-content-end align-items-center fa-solid fa-angle-down fa-lg p-0 m-0"></i>
+            <i style="position: absolute;bottom: 95px;right: 88px;"
+                class="services-circle-arrow  d-flex justify-content-end align-items-center fa-solid fa-angle-down fa-lg p-0 m-0"></i>
+
+
+        </div>
+
+        <div class="contact-form mt-3">
+            <div class="field-container">
+                <div class="col-left ">
+                    <input placeholder="Name" type="text" class="custom-input">
+                    <input placeholder="Email" type="text" class="custom-input">
+                    <input placeholder="Subject" type="text" class="custom-input">
+                    <input placeholder="Message" type="text" class="text-area">
+                </div>
+                <div><button class="long-btn">Submit</button></div>
+
+            </div>
 
 
         </div>

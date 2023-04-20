@@ -29,7 +29,7 @@ function animate() {
 
   //for Rotating the Services SVG
   var theta = (document.documentElement.scrollTop / 100) % Math.PI;
-
+  console.log(document.documentElement.scrollTop)
   servicesRoller.forEach((roller) => {
     roller.style.transform =
       "translate3d(0px, 0px, 0px)" + "rotate(" + theta + "rad)";
