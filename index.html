@@ -15,18 +15,28 @@
 <body>
     <nav>
         <img src="./Assets/Images/logo.png" alt="">
+        <div class="d-flex justify-content-center">
+            <button>Buy Now</button>
+            <button>Contact Us</button>
+        </div>
+
     </nav>
     <main>
         <div class="row p-0  w-100 m-0">
             <div class="large-card col-md-6 col-sm-12 card m-1"
                 style="background-color: #2900E8;color: white;position: relative;">
+                <div class="rolling-images">
+                    <img height="120px" src="./Assets/Images/animated-bottle.png" alt="">
+                    <img height="120px" src="./Assets/Images/tin.png" alt="">
+                    <img height="120px" src="./Assets/Images/bottle.png" alt="">
+                </div>
                 <div class="rolling-text-container">
                     <span class="rolling-text">Sip it, love it, live it.</span>
                     <span class="rolling-text">Sip it, love it, live it.</span>
                 </div>
                 <div class="inner-large-card d-flex justify-content-between flex-column h-100">
                     <div class="row  d-flex justify-between w-100 ">
-                        <span class="col p-0">Craft CMS</span>
+                        <span class="col p-0">Aquafina</span>
                         <i class="col w-100 d-flex justify-content-end fa-solid fa-droplet fa-lg p-0"></i>
                     </div>
 
@@ -39,8 +49,9 @@
             </div>
             <div class="col p-0 ">
                 <div class="row  m-0">
-                    <div class="small-card  d-flex justify-content-center col col-md-6  col-sm-12 card m-1"
+                    <div class="small-card water-bottle d-flex justify-content-center col col-md-6  col-sm-12 card m-1"
                         style="background-color: #fff; position: relative;">
+
                         <div class="hidden-rolling-text-container">
                             <span class="rolling-text">Sip it, love it, live it.</span>
                             <span class="rolling-text">Sip it, love it, live it.</span>
@@ -49,13 +60,13 @@
                             <div class="row d-flex justify-between w-100 "></div>
 
                             <div class="row d-flex justify-between w-100 ">
-                                <p class="col m-0">See Our Products</p>
+                                <p class="col m-0">Made with Refined Plastic</p>
                                 <i
                                     class=" col w-100 d-flex justify-content-end fa-solid fa-angle-down align-items-center fa-lg p-0 m-0"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="col  card m-1 small-card d-flex justify-content-center"
+                    <div class="col  card m-1 small-card tin-bg d-flex justify-content-center"
                         style="background-color: #1B1B1F;color: #fff; position: relative;">
                         <div class="hidden-rolling-text-container">
                             <span class="rolling-text">Sip it, love it, live it.</span>
@@ -67,7 +78,7 @@
 
                             </div>
                             <div class="row d-flex justify-between w-100 ">
-                                <p class="col m-0">See Our Products</p>
+                                <p class="col m-0">100% Recycled Aluminium</p>
                                 <i
                                     class=" col w-100 d-flex justify-content-end align-items-center fa-solid fa-angle-down fa-lg p-0 m-0"></i>
                             </div>
@@ -98,11 +109,9 @@
         </div>
         <div class="static card m-1" style="background-color: #1B1B1F;color: #A5A1FF;">
             <div style="margin-right: 20vw;">
-                <p class="title">what we do</p>
-                <h1 class="large-text">We provide clients
-                    with stunning Crafty web
-                    solutions, developed
-                    with skill & passion</h1>
+                <p class="title">Hey There!</p>
+                <h1 class="large-text">What’s the secret for perfectly pure tasting water? Our rigorous purification
+                    system. It takes out the stuff other bottled waters leave in.</h1>
             </div>
 
             <svg id="services-circle" width="125" height="126" viewBox="0 0 155 156" fill="none"
@@ -278,31 +287,15 @@
                 <i style="margin-right: 2rem;"
                     class="d-flex justify-content-start align-items-center fa-solid fa-filter "></i>
                 <div>
-                    <p class="title">Water Filtering</p>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, debitis? Vero
-                        exercitationem asperiores quo distinctio enim officiis doloremque nisi! Perspiciatis?</small>
+                    <p class="title">Reverse Osmosis</p>
+                    <small> Reverse osmosis eliminates contaminants such as lead, pesticides, heavy metals, and
+                        fluorides, leaving the purest, cleanest tasting water for bottling</small>
                 </div>
 
             </div>
             <div class="my-services-row-right">
                 <p>we are experts in</p>
-                <h1>Liquid Purification</h1>
-
-            </div>
-        </div>
-        <div class="my-services-row">
-            <div class="my-services-row-left">
-                <i style="margin-right: 2rem;"
-                    class="d-flex justify-content-start align-items-center fa-solid fa-filter "></i>
-                <div>
-                    <p class="title">Water Filtering</p>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, debitis? Vero
-                        exercitationem asperiores quo distinctio enim officiis doloremque nisi! Perspiciatis?</small>
-                </div>
-            </div>
-            <div class="my-services-row-right">
-                <p>we are experts in</p>
-                <h1>Liquid Purification</h1>
+                <h1>Reverse Osmosis</h1>
 
             </div>
         </div>
@@ -311,14 +304,34 @@
                 <i style="margin-right: 2rem;"
                     class="d-flex justify-content-start align-items-center fa-solid fa-filter "></i>
                 <div>
-                    <p class="title">Water Filtering</p>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, debitis? Vero
-                        exercitationem asperiores quo distinctio enim officiis doloremque nisi! Perspiciatis?</small>
+                    <p class="title">Vapour Compression Distillation</p>
+                    <small>Unlike RO, which relies on filtering out impurities, distillation boils the contaminants out
+                        of water for bottling. During the process of distillation, water is boiled until it becomes
+                        vapor. Then, it condenses back into its liquid form in a separate container. Inorganic minerals,
+                        metals, and other contaminants remain in the original container, leaving only clean water for
+                        bottling.</small>
                 </div>
             </div>
             <div class="my-services-row-right">
                 <p>we are experts in</p>
-                <h1>Liquid Purification</h1>
+                <h1>Vapour Compression Distillation</h1>
+
+            </div>
+        </div>
+        <div class="my-services-row">
+            <div class="my-services-row-left">
+                <i style="margin-right: 2rem;"
+                    class="d-flex justify-content-start align-items-center fa-solid fa-filter "></i>
+                <div>
+                    <p class="title">Deionization</p>
+                    <small>Deionization is a process done when there is an immediate need of purified water
+                        distribution. It is imperative that deionization is performed when the water is close to being
+                        utilized since extremely high water purity degrades quickly. </small>
+                </div>
+            </div>
+            <div class="my-services-row-right">
+                <p>we are experts in</p>
+                <h1>Deionization</h1>
 
             </div>
         </div>
